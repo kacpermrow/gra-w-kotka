@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra w kotka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <h2>Gra w kotka</h2>
+        <div class="text">Naciśnij w kotka kiedy liczba na ekranie zawiera 7 bądź jest podzielna przez 7!!!</div>
+        <div id="center">
+            <div id="liczba">1</div>
+            <button id="start">Rozpocznij grę!</button>
+            <img id="kotek">
+        </div>
+        <div id="settings">
+            <div class="text">Odstępy pomiędzy zwiększeniem liczby:</div>
+            <input id="setting" type="range" min="0.1" max="1" step="0.01" default="0.5">
+            <div id="speed-display">0.5s</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

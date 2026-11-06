@@ -1,0 +1,34 @@
+#content {
+    margin: 4% 20%;
+    background-color:azure;
+    border: 3px black solid;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.text {
+    font-size: 110%;
+    font-weight: bold;
+}
+#liczba {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#center {
+    margin: auto 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#start {
+    width: 30%;
+    height: 20%;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: aliceblue;
+    border: 5px black dotted;
+}
